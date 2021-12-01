@@ -1,0 +1,239 @@
+.main{
+    padding: 2vw;
+}
+
+.History {
+    border-bottom: rgba(71, 61, 139, 0.315);
+    border-bottom-style: solid;
+    padding-bottom: 5px;
+    height: 5vh;
+}
+
+.ButtonHistory {
+    border-top-right-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 5px;
+    border: none;
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(111, 0, 255, 0.945);
+    color: white;
+    cursor: pointer;
+}
+
+.LineTwo {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.FolderContainer {
+    display: inline-block;
+    min-height: 20vh;
+    width: 100%;
+}
+
+.Folder {
+    border-color: rgba(70, 70, 70, 0.315);
+    border-style: solid;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 5vh;
+    width: 20vw !important;
+    float: left;
+    padding: 1vh 0vh;
+    margin: 2vh 3vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Folder div {
+    position: relative;
+    top: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(70, 70, 70, 0.815);
+}
+
+.FolderButton {
+    position: relative;
+    top: 25px;
+    right: 10%;
+    padding-top: 1vh;
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(111, 0, 255, 0.945);
+    color: white;
+    cursor: pointer;
+}
+
+.FourthLine {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.FileContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(auto-fill, 20vw);
+    grid-auto-rows: minmax(20px, auto);
+    justify-content: center;
+}
+
+.File {
+    border-color: rgba(70, 70, 70, 0.315);
+    border-style: solid;
+    border-radius: 5px;
+    width: 20vw;
+    text-align: center;
+    float: left;
+}
+
+.FileButton {
+    background: rgba(111, 0, 255, 0.945);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    right: 10%;
+    text-align: center;
+    height: 36px;
+    width: 120px;
+}
+
+.FileButton input.upload {
+    position: absolute;
+    left: -120px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.FileButton span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.react-pdf__Page__canvas {
+    border-radius: 5px;
+    width: 20vw !important;
+    height: 30vh !important;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+img {
+    width: 20vw; 
+    height: 30vh; 
+    border-radius: 5px;
+    object-fit: cover; 
+    object-position: 50% 50%;
+}
+
+.label{
+    padding: 5px;
+    margin: 15px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: rgb(94, 94, 94);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+}
+
+.popup-inner {
+    position: relative;
+    padding: 10vh;
+    top: 30vh;
+    width: 100%;
+    height: 25vh;
+    max-width: 30vw;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.popup-inner button {
+    position: absolute;
+    border: none;
+    top: 16px;
+    right: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(111, 0, 255, 0.945);
+    color: white;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=number],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    border: none;
+    padding: 10px 20px;
+    width: 10vw;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgba(111, 0, 255, 0.945);
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.685);
+    padding: 10px 0px;
+    overflow: hidden;
+}
